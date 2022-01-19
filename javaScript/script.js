@@ -4,7 +4,7 @@ const paragraphInstructions = document.createElement(`P`)
 
 paragraphInstructions.innerHTML = `
 <b>git init :</b> Inicializa un proyecto en git mientras se está en la ruta del proyecto<br>
-<b>git status :</b><br>
+<b>git status :</b>Hola buenas tardesbr>
 <b>git add . :</b><br>
 <b>git commit -m "example" :</b><br>
 <b>git config --global user.email "mail@mail.com":</b><br>
