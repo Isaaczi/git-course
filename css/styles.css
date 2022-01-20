@@ -16,12 +16,13 @@ html {
 body {   
     font-size: 16px; /* 1rem = 10px */
     background-color: var(--background);
-    background: radial-gradient(var(--background)5%, var(--darkBackground)60%);
+    background: radial-gradient(white 50%, var(--background) 200%);
+    background-repeat: no-repeat;
     padding: 1rem;
 }
 b {
-    color: var(--mainColor);
+    color: var(--secColor);
 }
 p {
-    color: white;
+    color: black;
 }
