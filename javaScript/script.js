@@ -3,20 +3,20 @@ const father = document.querySelector(`.main`);
 const paragraphInstructions = document.createElement(`P`)
 
 paragraphInstructions.innerHTML = `
-<b>git init :</b> Inicializa un proyecto en git mientras se está en la ruta del proyecto<br>
-<b>git status :</b>Hola buenas tardesbr>
-<b>git add . :</b><br>
-<b>git commit -m "example" :</b><br>
-<b>git config --global user.email "mail@mail.com":</b><br>
-<b>git config --global user.name "user":</b><br>
-<b>git log :</b><br>
-<b>git diff route.ext :</b><br>
-<b>git branch :</b><br>
-<b>git branch newBranch :</b><br>
-<b>git checkout selectBranch :</b><br>
-<b>git remote add origin https://link.git :</b><br>
-<b>git push -u origin master :</b><br>
-<b>git clone https://repostory.git :</b><br>
+<b>git init : </b> Inicializa un proyecto en git mientras se está en la ruta del proyecto<br><br>
+<b>git status : </b>Muestra el estado del proyecto<br><br>
+<b>git add . : </b>Añade un archivo al proyecto, el "." indica que se añaden todos los que se encuentren sin añadir<br><br>
+<b>git commit -m "example" : </b>Crea un nuevo punto de partida<br><br>
+<b>git config --global user.email "mail@mail.com": </b>Establece el correo del usuario<br><br>
+<b>git config --global user.name "user": </b>Establece el nombre de usuario<br><br>
+<b>git log : </b>Muestra todos los puntos de partida por orden<br><br>
+<b>git diff route.ext : </b>Muestra las diferencias entre un archivo modificado y otro sin modificar<br><br>
+<b>git branch : </b>Muestra las versiones<br><br>
+<b>git branch newBranch : </b>Crea una versión alternativa<br><br>
+<b>git checkout selectBranch : </b>Te posiciona en una versión distinta del proyecto<br><br>
+<b>git remote add origin https://link.git : </b>Añade un nuevo repositorio con el proyecto<br><br>
+<b>git push -u origin master : </b>Se actualiza la información del proyecto en la página cargada<br><br>
+<b>git clone https://repostory.git : </b>Crea un clon del proyecto según la ruta en que se encuentre<br><br>
 `;
 
 father.appendChild(paragraphInstructions);
