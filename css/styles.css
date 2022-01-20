@@ -16,7 +16,7 @@ html {
 body {   
     font-size: 16px; /* 1rem = 10px */
     background-color: var(--background);
-    background: radial-gradient(white 50%, var(--background) 200%);
+    background: radial-gradient(white 50%, var(--background) 500%);
     background-repeat: no-repeat;
     padding: 1rem;
 }
@@ -25,4 +25,8 @@ b {
 }
 p {
     color: black;
+}
+h1 {
+    color: var(--secColor);
+    text-align: center;
 }
