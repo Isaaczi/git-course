@@ -16,6 +16,7 @@ paragraphInstructions.innerHTML = `
 <b>git checkout selectBranch : </b>Te posiciona en una rama distinta del proyecto<br><br>
 <b>git remote add origin https://link.git : </b>Añade un nuevo repositorio con el proyecto<br><br>
 <b>git push -u origin master : </b>Actualiza la información del proyecto en la página cargada<br><br>
+<b>git pull : </b>Trae información creada en la página al proyecto local<br><br>
 <b>git clone https://repository.git : </b>Crea un clon del proyecto según la ruta en que se encuentre<br><br>
 `;
 
